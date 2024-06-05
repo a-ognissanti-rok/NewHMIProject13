@@ -1,0 +1,97 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable4
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Motor
+  Id: g=f8c6fc5b1810c68617afa58487a8f676
+  Supertype: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motor1
+  Id: g=088b45936ae63cce700fddc0f04d9bfe
+  Type: Motor
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "M001"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 10.0
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motor2
+  Type: Motor
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "M002"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 20.0
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Motor3
+  Type: Motor
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "M003"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 30.0
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

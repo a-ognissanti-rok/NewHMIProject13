@@ -1,0 +1,5 @@
+Name: UITypes
+Type: FolderType
+Children:
+- File: Components/Components.yaml
+- File: Widget/Widget.yaml
